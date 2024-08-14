@@ -16,7 +16,7 @@
 </head>
 
 <body class="bg-[#f8fafc]">
-  <header class=" bg-white flex h-20 items-center justify-between">
+  <header class=" bg-white flex h-20 items-center justify-between absolute w-full">
     <div class="flex">
       <img class=" h-16 ml-5" src="/img/MiviCodeLogo.png" alt="Logo MiviCode">
       <img class=" h-16 ml-5" src="/img/MiviCodeLight.png" alt="MiviCode">
@@ -35,8 +35,8 @@
   <div>
     <div
       class="flex flex-col items-center justify-center h-screen bg-[url('/img/stockphoto.png')] bg-no-repeat bg-cover bg-center">
-      <h1 class="text-5xl font-bold text-[#22b8ea]">Welcome to MiviCode</h1>
-      <p class="text-2xl text-gray-600">We are a team of developers that will help you and your company with your
+      <h1 class="text-5xl font-bold text-[#22b8ea] poppins-regular">Welcome to MiviCode</h1>
+      <p class="text-2xl text-gray-600 mt-4">We are a team of developers that will help you and your company with your
         projects</p>
       <button id="contactButton"
         class="bg-[#22b8ea] text-white px-4 py-2 rounded-lg mt-5 hover:bg-white hover:text-[#22b8ea] duration-300">Contact
@@ -113,14 +113,14 @@
       </div>
     </div>
     <div class="flex w-3/4 m-auto pt-4 pb-4">
-      <div class="w-1/3 m-auto">
+      <div id="divImages" class="w-1/3 m-auto">
         <ul class="h-auto m-auto">
-          <li class="p-auto"><img src="/img/HubSpotLogo.png" alt="HubSpot Logo" class="m-auto"></li>
+          <li class="p-auto"><img src="/img/HubSpotLogo.png" alt="HubSpot Logo" class="m-auto w-"></li>
           <li class="p-auto"><img src="/img/GreenMedLogo.png" alt="GreenMed Logo" class="m-auto"></li>
           <li class="p-auto"><img src="/img/StripeLogo.png" alt="Stripe Logo" class="m-auto"></li>
         </ul>
       </div>
-      <div class="w-2/3 m-auto">
+      <div id="divBussinesses" class="w-2/3 m-auto">
         <h2 class="text-4xl text-center font-bold text-[#22b8ea] pb-4">Our Valued Clients</h2>
         <div class="text-justify w-auto bg-white text-gray-600 p-5 rounded-lg shadow-lg">
           <p>At MiviCode, our success is reflected in the trust and satisfaction of our esteemed clients.
@@ -145,7 +145,7 @@
   </div>
 
 </body>
-<footer id="footer" class="bg-white p-4 min-w-full">
+<footer id="footer" class="bg-white p-4 min-w-full mt-20">
   <div class="w-10/12 flex flex-wrap items-center text-center justify-between text-sm font-large text-gray-400 mx-auto">
     <div class="w-1/6 min-w-16">
       <img src="/img/Miguel.jfif" alt="Imagen Miguel" class="w-full rounded-full border-transparent">
