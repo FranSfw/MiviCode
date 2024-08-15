@@ -30,9 +30,51 @@
         </div>
     </header>
 
+    <h2 class="text-4xl text-center font-bold text-[#22b8ea] my-8">Where Are We</h2>
     <div class="flex w-3/4 m-auto">
-
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.629420260486!2d-118.4709896678855!3d34.02772206750616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb39055993f7%3A0xbc891fc1b60f587a!2sNaughty%20Dog%20LLC!5e0!3m2!1ses-419!2smx!4v1723747651299!5m2!1ses-419!2smx"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            class="w-full h-[450px] rounded-lg shadow-lg"></iframe>
     </div>
+    <form class="max-w-sm mx-auto mb-8">
+        <h2 class="text-4xl text-center font-bold text-[#22b8ea] my-8">Contact Us</h2>
+        <div class="mb-5">
+            <label class="block mb-2 text-sm font-medium text-[#22b8ea]">E-mail Adress</label>
+            <input class="bg-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="name@flowbite.com" required />
+        </div>
+        <div class="grid md:grid-cols-2 md:gap-6">
+            <div class="mb-5">
+                <label class="block mb-2 text-sm font-medium text-[#22b8ea]">First Name</label>
+                <input class="bg-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="John" required />
+            </div>
+            <div class="mb-5">
+                <label class="block mb-2 text-sm font-medium text-[#22b8ea]">Last Name</label>
+                <input class="bg-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="Doe" required />
+            </div>
+        </div>
+        <div class="grid md:grid-cols-2 md:gap-6">
+            <div class="mb-5">
+                <label class="block mb-2 text-sm font-medium text-[#22b8ea]">Phone Number</label>
+                <input class="bg-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="123-456-7890" required />
+            </div>
+            <div class="mb-5">
+                <label class="block mb-2 text-sm font-medium text-[#22b8ea]">Company</label>
+                <input class="bg-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="Google" required />
+            </div>
+        </div>
+        <div class="mb-5">
+            <label class="block mb-2 text-sm font-medium text-[#22b8ea]">Subject</label>
+            <input class="bg-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="I have a question" required />
+        </div>
+        <div class="mb-5">
+            <label class="block mb-2 text-sm font-medium text-[#22b8ea] focus:border-[#22b8ea]">Message</label>
+            <textarea class="bg-gray-300 text-sm rounded-lg block w-full p-2.5 h-48" placeholder="Your message here"
+                required></textarea>
+        </div>
+        <button type="submit"
+            class="text-white bg-[#22b8ea] hover:text-[#22b8ea] hover:bg-white font-medium rounded-lg shadow-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+    </form>
 </body>
 
 <footer id="footer" class="bg-white p-4 min-w-full">
